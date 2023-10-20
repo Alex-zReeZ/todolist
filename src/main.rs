@@ -81,7 +81,7 @@ fn main() {
             }
             
             "q" => {
-                break;
+                todo_list.display_todos()
             }
             
             _ => {
