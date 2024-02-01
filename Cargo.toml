@@ -1,5 +1,5 @@
 [package]
-name = "TODO_lignecommande"
+name = "todo_lignecommande"
 version = "0.1.0"
 edition = "2021"
 

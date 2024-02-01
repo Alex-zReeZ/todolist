@@ -56,7 +56,9 @@ fn main() {
         println!("  - Add a todo (n)");
         println!("  - Displays archived todos (a)");
         println!("  - Archive a todo  (number of the todo)");
-        println!("  - Quit (q)");
+        println!("  - Go back to todos (q)");
+        println!("  - Shut down prgramme (e)");
+
 
         let mut input = String::new();
         print!("Chose an option : ");
@@ -82,6 +84,10 @@ fn main() {
             
             "q" => {
                 todo_list.display_todos()
+            }
+
+            "e" => {
+                break;
             }
             
             _ => {
